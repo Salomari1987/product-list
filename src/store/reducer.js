@@ -9,4 +9,5 @@ req.keys().forEach((key) => {
   reducers[storeName] = req(key).default
 })
 
+
 export default combineReducers(reducers)

@@ -1,7 +1,17 @@
 import configureStore from './configure'
+import data from '../productData.json'
 
 
-const INITIAL_STATE = {}
+export const loadState = () => {
+  try {
+    return {
+      productList: {
+        productList: data
+      }
+    }
+  } catch (err) {
+    return {};
+  }
+};
 
-
-export default configureStore(INITIAL_STATE)
+export default configureStore(loadState())
