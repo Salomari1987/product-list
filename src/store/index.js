@@ -5,7 +5,7 @@ import data from '../productData.json'
 export const loadState = () => {
   try {
     return {
-      productList: {
+      product: {
         productList: data
       }
     }
