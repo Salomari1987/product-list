@@ -5,8 +5,9 @@ import data from '../productData.json'
 export const loadState = () => {
   try {
     return {
-      productList: {
-        productList: data
+      product: {
+        productList: data,
+        currentProduct: {}
       }
     }
   } catch (err) {

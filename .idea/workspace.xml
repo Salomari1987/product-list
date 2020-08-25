@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3e3ae0-51f3-4d76-a2c1-3aa4cb7b6e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/productData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/productList/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +29,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1gYJgBRENFUA7GNdIaysPp0j1GV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -69,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598306071815</updated>
-      <workItem from="1598306073252" duration="3158000" />
+      <workItem from="1598306073252" duration="6612000" />
+      <workItem from="1598381475324" duration="14024000" />
     </task>
     <servers />
   </component>
@@ -81,9 +80,37 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="577" y="283" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1680.947@0.23.1680.947" timestamp="1598306421989" />
+    <state x="423" y="99" key="CommitChangelistDialog2" timestamp="1598399317810">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="423" y="99" key="CommitChangelistDialog2/0.23.1680.947@0.23.1680.947" timestamp="1598399317810" />
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1598338955629">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1598338955629" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1598338955628">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1598338955628" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1598338955628">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1598338955628" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1598338955628">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1598338955628" />
     <state x="341" y="135" key="SettingsEditor" timestamp="1598306430037">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1598306430037" />
+    <state x="623" y="420" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598393579642">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="623" y="420" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.947@0.23.1680.947" timestamp="1598393579642" />
+    <state x="496" y="253" width="688" height="486" key="find.popup" timestamp="1598338861327">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="496" y="253" width="688" height="486" key="find.popup/0.23.1680.947@0.23.1680.947" timestamp="1598338861327" />
   </component>
 </project>
