@@ -18,7 +18,7 @@ const ProductList = (props) => (
     </thead>
     <tbody>
       {props.productList.map((product)=>(
-        <Product product={product} />
+        <Product key={product._id} product={product} />
       ))}
     </tbody>
   </table>

@@ -3,6 +3,7 @@ import logo from '../logo.svg';
 import './App.css';
 import { Switch, Route } from "react-router-dom";
 import ProductListContainer from "../containers/ProductListContainer";
+import ProductDetailedContainer from "../containers/ProductDetailedContainer";
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       </header>
       <main className="content">
         <Switch>
-          <Route path="/" component={() => <ProductListContainer />}/>
+          <Route path="/edit/:product_id" component={ProductDetailedContainer}/>
+          <Route path="/" component={ProductListContainer}/>
         </Switch>
       </main>
     </div>

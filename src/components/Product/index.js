@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 
 const Product = ({product}) => (
@@ -10,7 +11,7 @@ const Product = ({product}) => (
     <td>{product.price_tier}</td>
     <td>{product.price_range}</td>
     <td>{product.unit_cost}</td>
-    <td>{product.isEditable ? <a href="#">Edit {product._id}</a> : null}</td>
+    <td>{product.isEditable ? <Link to={`/edit/${product._id}`}>Edit</Link> : null}</td>
   </tr>
 )
 
