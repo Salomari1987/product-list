@@ -6,7 +6,8 @@ export const loadState = () => {
   try {
     return {
       product: {
-        productList: data
+        productList: data,
+        currentProduct: {}
       }
     }
   } catch (err) {

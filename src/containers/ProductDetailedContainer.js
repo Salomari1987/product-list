@@ -1,27 +1,31 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-// import ProductDetailed from '../components/ProductDetailed'
+import ProductDetailed from '../components/ProductDetailed'
+import {setProductToEdit} from '../store/actions'
+import { withRouter } from 'react-router-dom'
 
-class ProductListContainer extends Component {
+class ProductDetailedContainer extends Component {
+  componentDidMount() {
+    this.props.setProductToEdit()
+  }
 
   render() {
     return (
-      <div
-        product={this.props.product}
-      />
+      <ProductDetailed product={this.props.product} />
     )
   }
 }
 
 
-const mapStateToProps = (state, ownProps) => ({
-    product: state.product.productList.filter((product) => product._id == ownProps.match.params.product_id)[0]
-  })
+const mapStateToProps = (state) => ({
+  product: state.product.currentProduct
+})
 
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
+  setProductToEdit: () => dispatch(setProductToEdit(ownProps.match.params.product_id)),
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(
-  ProductListContainer
-)
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(
+  ProductDetailedContainer
+))

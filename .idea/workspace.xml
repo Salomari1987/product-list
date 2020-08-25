@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3e3ae0-51f3-4d76-a2c1-3aa4cb7b6e25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/product/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/product/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductDetailed/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductDetailed/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ProductDetailedContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProductDetailedContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ProductListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProductListContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/configure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configure.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/product/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/product/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598306071815</updated>
-      <workItem from="1598306073252" duration="6590000" />
+      <workItem from="1598306073252" duration="6612000" />
+      <workItem from="1598381475324" duration="11879000" />
     </task>
     <servers />
   </component>
@@ -76,10 +91,30 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="577" y="283" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.23.1680.947@0.23.1680.947" timestamp="1598306421989" />
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1598338955629">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1598338955629" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1598338955628">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1598338955628" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1598338955628">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1598338955628" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1598338955628">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1598338955628" />
     <state x="341" y="135" key="SettingsEditor" timestamp="1598306430037">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1598306430037" />
+    <state x="623" y="420" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598393579642">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="623" y="420" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.947@0.23.1680.947" timestamp="1598393579642" />
     <state x="496" y="253" width="688" height="486" key="find.popup" timestamp="1598338861327">
       <screen x="0" y="23" width="1680" height="947" />
     </state>

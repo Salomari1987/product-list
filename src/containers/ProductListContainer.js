@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import ProductList from '../components/ProductList'
+import {withRouter} from "react-router-dom";
 
 class ProductListContainer extends Component {
-
   render() {
-
     return (
       <ProductList
         productList={this.props.productList}
@@ -22,6 +21,6 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(
   ProductListContainer
-)
+))

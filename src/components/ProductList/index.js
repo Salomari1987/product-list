@@ -1,9 +1,9 @@
 import React from 'react'
 import Product from '../Product'
-
+import {Table} from 'react-bootstrap'
 
 const ProductList = (props) => (
-  <table>
+  <Table>
     <thead>
       <tr>
         <th>Product Name</th>
@@ -21,7 +21,7 @@ const ProductList = (props) => (
         <Product key={product._id} product={product} />
       ))}
     </tbody>
-  </table>
+  </Table>
 )
 
 export default ProductList
