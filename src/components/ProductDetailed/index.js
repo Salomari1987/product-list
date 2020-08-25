@@ -1,11 +1,11 @@
 import React from 'react'
 import {Form, Row, Col, Button} from 'react-bootstrap'
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const ProductDetailed = ({product}) => {
-  const { register, handleSubmit, watch, errors, formState } = useForm();
-  const onSubmit = data => console.log(data);
+const ProductDetailed = ({product, editProduct}) => {
+  const { register, handleSubmit, watch, errors, control } = useForm();
+  const onSubmit = data => editProduct(data);
 
   const watchPriceTier = watch('price_tier')
   const watchProductName = watch('product_name')
@@ -93,6 +93,16 @@ const ProductDetailed = ({product}) => {
         <Form.Label>Unit Cost</Form.Label>
         <Form.Control name="unit_cost" type="text" placeholder="$10" defaultValue={product.unit_cost} ref={register({required: true})}/>
         {errors.unit_cost && <span>This field is required</span>}
+      </Form.Group>
+      <Form.Group id="isEditable">
+        <Controller control={control} name="isEditable" defaultValue={true} render={({ onChange, onBlur, value, name }) => (
+            <Form.Check type="checkbox"
+                        label="Can edit"
+                        name={name}
+                        checked={value}
+                        onChange={e => onChange(e.target.checked)}
+                        onBlur={onBlur}/>
+          )}/>
       </Form.Group>
       <Button type="submit" variant={submitEnabled ? 'primary' : 'secondary'} disabled={submitEnabled ? false : true} size="lg" block>Submit</Button>
     </Form>

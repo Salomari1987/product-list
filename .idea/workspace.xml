@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3e3ae0-51f3-4d76-a2c1-3aa4cb7b6e25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/product/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/product/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductDetailed/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductDetailed/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/ProductDetailedContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProductDetailedContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/ProductListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProductListContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/configure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configure.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/product/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/product/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598306071815</updated>
       <workItem from="1598306073252" duration="6612000" />
-      <workItem from="1598381475324" duration="11879000" />
+      <workItem from="1598381475324" duration="13697000" />
     </task>
     <servers />
   </component>

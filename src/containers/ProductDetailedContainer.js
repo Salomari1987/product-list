@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import ProductDetailed from '../components/ProductDetailed'
-import {setProductToEdit} from '../store/actions'
+import {setProductToEdit, editProduct} from '../store/actions'
 import { withRouter } from 'react-router-dom'
+
 
 class ProductDetailedContainer extends Component {
   componentDidMount() {
@@ -11,7 +12,7 @@ class ProductDetailedContainer extends Component {
 
   render() {
     return (
-      <ProductDetailed product={this.props.product} />
+      <ProductDetailed product={this.props.product} editProduct={this.props.editProduct}/>
     )
   }
 }
@@ -24,6 +25,10 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
   setProductToEdit: () => dispatch(setProductToEdit(ownProps.match.params.product_id)),
+  editProduct: (details) => {
+    dispatch(editProduct(details))
+    ownProps.history.push('/')
+  }
 })
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(
